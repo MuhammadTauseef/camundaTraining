@@ -1,0 +1,25 @@
+<form name="approveLoan">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="name"
+           name ="name" 
+           readonly="true"/>
+  </div>
+  <div class="form-group">
+    <label for="tweet">Tweet</label>
+    <input class="form-control"
+           cam-variable-type="String"
+           cam-variable-name="tweet"
+           name="tweet"
+           readonly="true" />
+  </div>
+    <div class="form-group">
+<select cam-variable-name="approved"
+        cam-variable-type="Boolean">
+  <option value="true">Yes</option>
+  <option value="false">No</option>
+</select>
+  </div>
+</form>
